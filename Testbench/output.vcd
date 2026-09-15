@@ -1,0 +1,210 @@
+$date
+	Sun Sep  6 17:58:58 2026
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ms
+$end
+$scope module tb $end
+$var wire 6 ! total [5:0] $end
+$var wire 2 " states [1:0] $end
+$var wire 1 # selSoda $end
+$var wire 1 $ selChips $end
+$var wire 1 % selCandy $end
+$var wire 1 & notEnough $end
+$var reg 1 ' candy $end
+$var reg 1 ( chips $end
+$var reg 1 ) clk $end
+$var reg 1 * dime $end
+$var reg 1 + nickel $end
+$var reg 1 , quarter $end
+$var reg 1 - reset $end
+$var reg 1 . soda $end
+$scope module uut $end
+$var wire 1 ' candy $end
+$var wire 1 ( chips $end
+$var wire 1 ) clk $end
+$var wire 1 * dime $end
+$var wire 1 + nickel $end
+$var wire 1 , quarter $end
+$var wire 1 - reset $end
+$var wire 1 . soda $end
+$var reg 6 / change [5:0] $end
+$var reg 2 0 nextstate [1:0] $end
+$var reg 1 & notEnough $end
+$var reg 1 % selCandy $end
+$var reg 1 $ selChips $end
+$var reg 1 # selSoda $end
+$var reg 2 1 state [1:0] $end
+$var reg 2 2 states [1:0] $end
+$var reg 6 3 temp_change [5:0] $end
+$var reg 6 4 total [5:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+$end
+#0
+$dumpvars
+b0 4
+b0 3
+b0 2
+b0 1
+b0 0
+b0 /
+0.
+1-
+0,
+0+
+0*
+0)
+0(
+0'
+0&
+0%
+0$
+0#
+b0 "
+b0 !
+$end
+#500
+1)
+#600
+0-
+#1000
+0)
+#1500
+b101 /
+1+
+1)
+#2000
+0)
+#2500
+b101 !
+b101 4
+b101 3
+b101 /
+0+
+1)
+#3000
+0)
+#3500
+b1111 /
+1*
+1)
+#4000
+0)
+#4500
+b1111 !
+b1111 4
+b1111 3
+b1111 /
+0*
+1)
+#5000
+0)
+#5500
+1&
+1'
+1)
+#6000
+0)
+#6500
+0&
+0'
+1)
+#7000
+0)
+#7500
+b11 0
+b101000 /
+1,
+1)
+#8000
+0)
+#8500
+b11 "
+b11 2
+b101000 !
+b101000 4
+b11 1
+b101000 3
+b11 0
+b101000 /
+0,
+1)
+#9000
+0)
+#9500
+b0 0
+b1010 /
+1#
+1.
+1)
+#10000
+0)
+#10500
+b0 "
+b0 2
+b1010 !
+b1010 4
+b0 1
+b1010 3
+b0 0
+0#
+b1010 /
+0.
+1)
+#11000
+0)
+#11500
+b11 0
+b100011 /
+1,
+1)
+#12000
+0)
+#12500
+b11 "
+b11 2
+b100011 !
+b100011 4
+b11 1
+b100011 3
+b11 0
+b100011 /
+0,
+1)
+#13000
+0)
+#13500
+b0 0
+b1010 /
+1$
+1(
+1)
+#14000
+0)
+#14500
+b0 "
+b0 2
+b1010 !
+b1010 4
+b0 1
+b1010 3
+b0 0
+0$
+b1010 /
+0(
+1)
+#15000
+0)
+#15500
+1)
+#16000
+0)
+#16500
+1)
